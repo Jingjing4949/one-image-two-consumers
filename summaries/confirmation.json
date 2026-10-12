@@ -1,0 +1,30 @@
+{
+ "identity": {
+  "scenes": 11,
+  "ssim_gain": 0.0,
+  "lpips_reduction": 0.0,
+  "fg_iou_gain": 0.0,
+  "effective": false
+ },
+ "cnn": {
+  "scenes": 11,
+  "ssim_gain": 0.0,
+  "lpips_reduction": 0.0,
+  "fg_iou_gain": 0.0,
+  "effective": false
+ },
+ "ridge": {
+  "scenes": 11,
+  "ssim_gain": -0.03372076905570012,
+  "lpips_reduction": -0.15769523025972806,
+  "fg_iou_gain": -0.10492896288245768,
+  "effective": false
+ },
+ "probe": {
+  "scenes": 11,
+  "ssim_gain": -0.009232126376833598,
+  "lpips_reduction": -0.03591733906864259,
+  "fg_iou_gain": -0.015070054243610865,
+  "effective": false
+ }
+}

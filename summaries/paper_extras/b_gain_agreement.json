@@ -1,0 +1,106 @@
+{
+ "suim": {
+  "images": 1598,
+  "groups": 1465,
+  "lraspp_seed1_vs_seed2": {
+   "pairs": 22372,
+   "mean_abs": 0.09019923573039043,
+   "median_abs": 0.05390715411940998,
+   "p95_abs": 0.294834101350453,
+   "frac_abs_above_tol": 0.8249150724119435,
+   "harm_label_agreement": 0.6470141247988557,
+   "harm_rate": [
+    0.5055873413195066,
+    0.4859645986053996
+   ],
+   "gain_rate": [
+    0.274852494189165,
+    0.28526729840872517
+   ],
+   "sign_agreement_where_first_exceeds_tol": 0.6757159221076747,
+   "pearson": 0.435671327750135,
+   "action_mean_gain_pearson": 0.9951639525458079,
+   "group_any_harm_agreement": 0.9167235494880546,
+   "group_any_harm": [
+    1394,
+    1386
+   ]
+  },
+  "lraspp_vs_deeplab": {
+   "pairs": 22372,
+   "mean_abs": 0.10749449224548548,
+   "median_abs": 0.06931839818126256,
+   "p95_abs": 0.3321594570025945,
+   "frac_abs_above_tol": 0.8560700876095119,
+   "harm_label_agreement": 0.598471303414983,
+   "harm_rate": [
+    0.5055873413195066,
+    0.5084033613445378
+   ],
+   "gain_rate": [
+    0.274852494189165,
+    0.26595744680851063
+   ],
+   "sign_agreement_where_first_exceeds_tol": 0.6284077892325315,
+   "pearson": 0.33998062628037556,
+   "action_mean_gain_pearson": 0.9747967772706714,
+   "group_any_harm_agreement": 0.9167235494880546,
+   "group_any_harm": [
+    1394,
+    1384
+   ]
+  }
+ },
+ "tub": {
+  "images": 788,
+  "groups": 22,
+  "lraspp_seed1_vs_seed2": {
+   "pairs": 11032,
+   "mean_abs": 0.06512854605664113,
+   "median_abs": 0.04640263451965723,
+   "p95_abs": 0.19492372694288637,
+   "frac_abs_above_tol": 0.8634880348078318,
+   "harm_label_agreement": 0.8277737490935461,
+   "harm_rate": [
+    0.8369289340101523,
+    0.837291515591008
+   ],
+   "gain_rate": [
+    0.08992023205221175,
+    0.09680928208846991
+   ],
+   "sign_agreement_where_first_exceeds_tol": 0.879119804400978,
+   "pearson": 0.6867197763662335,
+   "action_mean_gain_pearson": 0.9234680522592079,
+   "group_any_harm_agreement": 1.0,
+   "group_any_harm": [
+    22,
+    22
+   ]
+  },
+  "lraspp_vs_deeplab": {
+   "pairs": 11032,
+   "mean_abs": 0.16548174794409434,
+   "median_abs": 0.13602626668403137,
+   "p95_abs": 0.435831295592741,
+   "frac_abs_above_tol": 0.9532269760696157,
+   "harm_label_agreement": 0.8267766497461929,
+   "harm_rate": [
+    0.8369289340101523,
+    0.9564902102973168
+   ],
+   "gain_rate": [
+    0.08992023205221175,
+    0.01912617839013778
+   ],
+   "sign_agreement_where_first_exceeds_tol": 0.8900733496332518,
+   "pearson": 0.4590390803116988,
+   "action_mean_gain_pearson": 0.7915402672563719,
+   "group_any_harm_agreement": 1.0,
+   "group_any_harm": [
+    22,
+    22
+   ]
+  }
+ }
+}

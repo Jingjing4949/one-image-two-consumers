@@ -1,0 +1,928 @@
+{
+ "suim": {
+  "endpoints": {
+   "lraspp/raw": {
+    "images": 1598,
+    "groups": 1465,
+    "metric": "iou",
+    "identity_task": 0.5563588035892155,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.05034021077655489,
+     "shallow_uwnet": -0.01672936400622865,
+     "funie_s20260913": -0.026820761528321694,
+     "funie_s20261013": -0.028233173269387804,
+     "lite_s20260913": -0.01501482459007656,
+     "lite_s20261013": -0.014608487324738038,
+     "deep_wavenet_euvp": -0.012907771273679805,
+     "uiec2net": -0.030069761703177083,
+     "uir_polykernel": -0.015090321004903475,
+     "syreanet": -0.11192796188159868,
+     "semi_uir": -0.026374921470581278,
+     "phaseformer_uieb": -0.024153153280417214,
+     "ushape_lsui": -0.05565695289194769,
+     "tacl": -0.05188106708609185
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.8257457619590804,
+      "task": 0.5318625600926299
+     },
+     "task": {
+      "quality": 0.6159633994721616,
+      "task": 0.6390858717258631
+     },
+     "forced": {
+      "quality": 0.800317951168248,
+      "task": 0.5970665960404863
+     },
+     "same_action_image_fraction": 0.06508135168961202,
+     "images": 1598,
+     "groups": 1465
+    },
+    "safe_groups": {
+     "quality": 1384,
+     "task": 1264,
+     "joint": 1189
+    }
+   },
+   "deeplabv3/raw": {
+    "images": 1598,
+    "groups": 1465,
+    "metric": "iou",
+    "identity_task": 0.5620122900612711,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.08151062983583406,
+     "shallow_uwnet": -0.02259271626465575,
+     "funie_s20260913": -0.03216581517254314,
+     "funie_s20261013": -0.032077949287763835,
+     "lite_s20260913": -0.024296183828218024,
+     "lite_s20261013": -0.024201528241318358,
+     "deep_wavenet_euvp": -0.0173149553067899,
+     "uiec2net": -0.038184372748844675,
+     "uir_polykernel": -0.02139481924147032,
+     "syreanet": -0.12776937934739152,
+     "semi_uir": -0.03336412323524484,
+     "phaseformer_uieb": -0.028511262977457964,
+     "ushape_lsui": -0.0769923580598076,
+     "tacl": -0.05449325094670224
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.8257457619590804,
+      "task": 0.5298452267358448
+     },
+     "task": {
+      "quality": 0.6241475220451336,
+      "task": 0.6480066758704645
+     },
+     "forced": {
+      "quality": 0.7955913473230347,
+      "task": 0.6055604258613932
+     },
+     "same_action_image_fraction": 0.06382978723404255,
+     "images": 1598,
+     "groups": 1465
+    },
+    "safe_groups": {
+     "quality": 1384,
+     "task": 1235,
+     "joint": 1166
+    }
+   },
+   "lraspp/mixed": {
+    "images": 1598,
+    "groups": 1465,
+    "metric": "iou",
+    "identity_task": 0.5577693908090231,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.01628603787982434,
+     "shallow_uwnet": -0.0032067379497467724,
+     "funie_s20260913": -0.006528062550760256,
+     "funie_s20261013": -0.008416483896454168,
+     "lite_s20260913": -0.0015632106400149813,
+     "lite_s20261013": -0.004013319248800578,
+     "deep_wavenet_euvp": -0.0017684207661000369,
+     "uiec2net": -0.005002677896219821,
+     "uir_polykernel": -0.0016414496361294394,
+     "syreanet": -0.03213205457424932,
+     "semi_uir": -0.005251427890320835,
+     "phaseformer_uieb": -0.003468587521500909,
+     "ushape_lsui": -0.031062237151610838,
+     "tacl": -0.012033224458853919
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.8257457619590804,
+      "task": 0.5549979172229864
+     },
+     "task": {
+      "quality": 0.6269196841545519,
+      "task": 0.6238938183995962
+     },
+     "forced": {
+      "quality": 0.8104935642774374,
+      "task": 0.5939432327350646
+     },
+     "same_action_image_fraction": 0.0607008760951189,
+     "images": 1598,
+     "groups": 1465
+    },
+    "safe_groups": {
+     "quality": 1384,
+     "task": 1379,
+     "joint": 1299
+    }
+   },
+   "deeplabv3/mixed": {
+    "images": 1598,
+    "groups": 1465,
+    "metric": "iou",
+    "identity_task": 0.554949585879654,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.00713168555812405,
+     "shallow_uwnet": 0.006005373827594131,
+     "funie_s20260913": 3.7320755508039134e-05,
+     "funie_s20261013": 0.0025126010991929847,
+     "lite_s20260913": 0.0006614691886300899,
+     "lite_s20261013": 0.002416301562180209,
+     "deep_wavenet_euvp": 0.0030131438636995826,
+     "uiec2net": 0.00048701103333749577,
+     "uir_polykernel": 0.0029042475988380126,
+     "syreanet": -0.01420042129714898,
+     "semi_uir": 0.0005206027925331589,
+     "phaseformer_uieb": 0.002211274766735047,
+     "ushape_lsui": -0.019597726568734382,
+     "tacl": -0.004423450681214297
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.8257457619590804,
+      "task": 0.5560290327149614
+     },
+     "task": {
+      "quality": 0.629822024978383,
+      "task": 0.6291495062808358
+     },
+     "forced": {
+      "quality": 0.8092865920108714,
+      "task": 0.5967134683768577
+     },
+     "same_action_image_fraction": 0.07196495619524405,
+     "images": 1598,
+     "groups": 1465
+    },
+    "safe_groups": {
+     "quality": 1384,
+     "task": 1399,
+     "joint": 1319
+    }
+   },
+   "lraspp/raw/seed2": {
+    "images": 1598,
+    "groups": 1465,
+    "metric": "iou",
+    "identity_task": 0.5472873072843218,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.04168345341414505,
+     "shallow_uwnet": -0.009308945828150946,
+     "funie_s20260913": -0.01785454189952403,
+     "funie_s20261013": -0.01761674984764389,
+     "lite_s20260913": -0.011400140448111553,
+     "lite_s20261013": -0.010103965828525813,
+     "deep_wavenet_euvp": -0.006879029249578072,
+     "uiec2net": -0.022982390751812548,
+     "uir_polykernel": -0.009560786351329795,
+     "syreanet": -0.10917874821926836,
+     "semi_uir": -0.018126791956636745,
+     "phaseformer_uieb": -0.01608358379961141,
+     "ushape_lsui": -0.056015805518679525,
+     "tacl": -0.04881015561313079
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.8257457619590804,
+      "task": 0.5292105943128437
+     },
+     "task": {
+      "quality": 0.6217443362473807,
+      "task": 0.6359286727470943
+     },
+     "forced": {
+      "quality": 0.8007265393689116,
+      "task": 0.596353782306047
+     },
+     "same_action_image_fraction": 0.06382978723404255,
+     "images": 1598,
+     "groups": 1465
+    },
+    "safe_groups": {
+     "quality": 1384,
+     "task": 1286,
+     "joint": 1198
+    }
+   }
+  },
+  "seed_noise_lraspp_raw": {
+   "pairs": 23970,
+   "mean_abs": 0.08259046825900729,
+   "median_abs": 0.048664777811986186,
+   "p95_abs": 0.26903632207987177,
+   "frac_above_tol": 0.8255736337088027,
+   "identity_mean_abs": 0.07768742431815431,
+   "identity_frac_above_tol": 0.7897371714643304
+  },
+  "dists": {
+   "per_action": {
+    "gray_world_mean": {
+     "dists_reduction": -0.024252045541086294,
+     "lpips_reduction": -0.04377811696121852
+    },
+    "shallow_uwnet": {
+     "dists_reduction": -0.008320774115935665,
+     "lpips_reduction": -0.04589511385914342
+    },
+    "funie_s20260913": {
+     "dists_reduction": 0.011614182272733137,
+     "lpips_reduction": 0.0024840688618987085
+    },
+    "funie_s20261013": {
+     "dists_reduction": 0.010951030413716591,
+     "lpips_reduction": 0.00021191654606077167
+    },
+    "lite_s20260913": {
+     "dists_reduction": 0.024546930488872853,
+     "lpips_reduction": 0.03161923008821523
+    },
+    "lite_s20261013": {
+     "dists_reduction": 0.023913381503846188,
+     "lpips_reduction": 0.029490563700630395
+    },
+    "deep_wavenet_euvp": {
+     "dists_reduction": -0.009383885499696003,
+     "lpips_reduction": -0.0006797894297233347
+    },
+    "uiec2net": {
+     "dists_reduction": 0.05902783302452513,
+     "lpips_reduction": 0.09333178109242513
+    },
+    "uir_polykernel": {
+     "dists_reduction": 0.054383535535669165,
+     "lpips_reduction": 0.08323919262156415
+    },
+    "syreanet": {
+     "dists_reduction": -0.022097920751002056,
+     "lpips_reduction": -0.02335954882136723
+    },
+    "semi_uir": {
+     "dists_reduction": 0.047658965612027426,
+     "lpips_reduction": 0.0844290565199243
+    },
+    "phaseformer_uieb": {
+     "dists_reduction": 0.04064009161125678,
+     "lpips_reduction": 0.06359976278120001
+    },
+    "ushape_lsui": {
+     "dists_reduction": -0.027308636412143168,
+     "lpips_reduction": -0.13123679910749367
+    },
+    "tacl": {
+     "dists_reduction": 0.042721547652565715,
+     "lpips_reduction": 0.05499185972356484
+    }
+   },
+   "spearman_lpips_vs_dists_across_actions": 0.9648351648351648,
+   "quality_safe_pairs": 11484,
+   "quality_safe_pairs_also_dists_safe": 10968,
+   "joint_safe_groups_with_dists_in_place_of_lpips": 1211,
+   "same_quality_best_action_fraction": 0.8110137672090113
+  },
+  "selectors": {
+   "joint_safe_capacity": 1189,
+   "cnn": {
+    "groups": 1465,
+    "harmed_groups": 836,
+    "safe_improved_groups": 597
+   },
+   "fixed_training_fold": {
+    "groups": 1465,
+    "harmed_groups": 825,
+    "safe_improved_groups": 640
+   },
+   "joint_oracle": {
+    "groups": 1465,
+    "harmed_groups": 506,
+    "safe_improved_groups": 889
+   },
+   "probe": {
+    "groups": 1465,
+    "harmed_groups": 937,
+    "safe_improved_groups": 355
+   },
+   "probe_source": "/root/ivcb/out/b5_probe_suim/predictions.jsonl",
+   "probe_folds": [
+    {
+     "fold": 0,
+     "images": 315,
+     "joint_probe": -0.00048113354332958777,
+     "joint_fixed": 0.15616190452973,
+     "fixed": "uir_polykernel"
+    },
+    {
+     "fold": 1,
+     "images": 322,
+     "joint_probe": -0.008252366696636142,
+     "joint_fixed": 0.16004845561268535,
+     "fixed": "uir_polykernel"
+    },
+    {
+     "fold": 2,
+     "images": 318,
+     "joint_probe": -0.038464179503890715,
+     "joint_fixed": 0.12079737482635051,
+     "fixed": "uir_polykernel"
+    },
+    {
+     "fold": 3,
+     "images": 321,
+     "joint_probe": 0.013089009532670344,
+     "joint_fixed": 0.1621630737313233,
+     "fixed": "uir_polykernel"
+    },
+    {
+     "fold": 4,
+     "images": 322,
+     "joint_probe": -0.03454016506913771,
+     "joint_fixed": 0.13516074208071874,
+     "fixed": "uir_polykernel"
+    }
+   ],
+   "ridge": {
+    "groups": 1465,
+    "harmed_groups": 1006,
+    "safe_improved_groups": 319
+   },
+   "choice_counts": {
+    "cnn": {
+     "semi_uir": 460,
+     "uir_polykernel": 356,
+     "uiec2net": 483,
+     "phaseformer_uieb": 87,
+     "identity": 35,
+     "gray_world_mean": 68,
+     "lite_s20261013": 38,
+     "funie_s20260913": 2,
+     "lite_s20260913": 31,
+     "shallow_uwnet": 9,
+     "funie_s20261013": 3,
+     "tacl": 22,
+     "syreanet": 3,
+     "deep_wavenet_euvp": 1
+    },
+    "ridge": {
+     "funie_s20261013": 46,
+     "syreanet": 352,
+     "ushape_lsui": 419,
+     "identity": 162,
+     "uiec2net": 39,
+     "phaseformer_uieb": 8,
+     "semi_uir": 8,
+     "lite_s20261013": 25,
+     "gray_world_mean": 393,
+     "shallow_uwnet": 58,
+     "lite_s20260913": 29,
+     "tacl": 15,
+     "deep_wavenet_euvp": 3,
+     "funie_s20260913": 40,
+     "uir_polykernel": 1
+    },
+    "fixed": {
+     "uir_polykernel": 1598
+    }
+   }
+  }
+ },
+ "tub": {
+  "endpoints": {
+   "lraspp/raw": {
+    "images": 788,
+    "groups": 22,
+    "metric": "fg_iou",
+    "identity_task": 0.6157680941029222,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.08152621549692148,
+     "shallow_uwnet": -0.1271334422768282,
+     "funie_s20260913": -0.192267596539394,
+     "funie_s20261013": -0.15959678428119625,
+     "lite_s20260913": -0.10836143794414488,
+     "lite_s20261013": -0.08896353057462687,
+     "deep_wavenet_euvp": -0.11891556467990717,
+     "uiec2net": -0.06793793846159407,
+     "uir_polykernel": -0.06227277935192288,
+     "syreanet": -0.11019931709766456,
+     "semi_uir": -0.04858249614306656,
+     "phaseformer_uieb": -0.03966934304497333,
+     "ushape_lsui": -0.1807628614197675,
+     "tacl": -0.05469527094137817
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.2837040996289917,
+      "task": 0.6142399641533861
+     },
+     "task": {
+      "quality": 0.19602053833186375,
+      "task": 0.6372370125784919
+     },
+     "forced": {
+      "quality": 0.2811972646592732,
+      "task": 0.619994710243762
+     },
+     "same_action_image_fraction": 0.47588832487309646,
+     "images": 788,
+     "groups": 22
+    },
+    "safe_groups": {
+     "quality": 11,
+     "task": 22,
+     "joint": 8
+    }
+   },
+   "deeplabv3/raw": {
+    "images": 788,
+    "groups": 22,
+    "metric": "fg_iou",
+    "identity_task": 0.6467213096291313,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.1817352689191824,
+     "shallow_uwnet": -0.37059312961696256,
+     "funie_s20260913": -0.4023795335955258,
+     "funie_s20261013": -0.407135973597906,
+     "lite_s20260913": -0.235702480118852,
+     "lite_s20261013": -0.24940860755557637,
+     "deep_wavenet_euvp": -0.3828258466436193,
+     "uiec2net": -0.1623032524393941,
+     "uir_polykernel": -0.141125597713882,
+     "syreanet": -0.23554612669004288,
+     "semi_uir": -0.18689880590581423,
+     "phaseformer_uieb": -0.1380547201450571,
+     "ushape_lsui": -0.23517911197354327,
+     "tacl": -0.1524936115674736
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.2837040996289917,
+      "task": 0.642304622596582
+     },
+     "task": {
+      "quality": 0.2610853108132827,
+      "task": 0.6515064063512885
+     },
+     "forced": {
+      "quality": 0.2830887654760039,
+      "task": 0.6469184240224114
+     },
+     "same_action_image_fraction": 0.8324873096446701,
+     "images": 788,
+     "groups": 22
+    },
+    "safe_groups": {
+     "quality": 11,
+     "task": 18,
+     "joint": 2
+    }
+   },
+   "lraspp/mixed": {
+    "images": 788,
+    "groups": 22,
+    "metric": "fg_iou",
+    "identity_task": 0.5994886037410277,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.005000950897102982,
+     "shallow_uwnet": 0.004593107339485585,
+     "funie_s20260913": 0.008351702761330078,
+     "funie_s20261013": 0.01069806820734947,
+     "lite_s20260913": 0.0030953105924223,
+     "lite_s20261013": 0.0052902971807619196,
+     "deep_wavenet_euvp": 0.0026888344570772105,
+     "uiec2net": -0.0018772674034480152,
+     "uir_polykernel": -0.010592968015616896,
+     "syreanet": -0.04881386704442992,
+     "semi_uir": 0.012563256973173854,
+     "phaseformer_uieb": 0.005863330742210086,
+     "ushape_lsui": -0.017332934968420862,
+     "tacl": -0.013025898952375966
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.2837040996289917,
+      "task": 0.5996915023699093
+     },
+     "task": {
+      "quality": 0.08913777942387378,
+      "task": 0.6438056130981618
+     },
+     "forced": {
+      "quality": 0.28029397182000393,
+      "task": 0.6070724838633551
+     },
+     "same_action_image_fraction": 0.04187817258883249,
+     "images": 788,
+     "groups": 22
+    },
+    "safe_groups": {
+     "quality": 11,
+     "task": 22,
+     "joint": 11
+    }
+   },
+   "deeplabv3/mixed": {
+    "images": 788,
+    "groups": 22,
+    "metric": "fg_iou",
+    "identity_task": 0.6275503650377892,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.0036985512243037726,
+     "shallow_uwnet": 0.001714346864037268,
+     "funie_s20260913": -0.006742491002997079,
+     "funie_s20261013": -0.005794805581999845,
+     "lite_s20260913": 0.0019683135296416983,
+     "lite_s20261013": 0.0014026260607940136,
+     "deep_wavenet_euvp": -0.0004053620885614522,
+     "uiec2net": -0.005580483682191862,
+     "uir_polykernel": -0.011468343983573132,
+     "syreanet": -0.05225791390619985,
+     "semi_uir": 0.0013213405468158266,
+     "phaseformer_uieb": -0.00427657268453825,
+     "ushape_lsui": -0.019675357687373822,
+     "tacl": -0.0133738133622467
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.2837040996289917,
+      "task": 0.6276496309429295
+     },
+     "task": {
+      "quality": 0.10167295559694497,
+      "task": 0.6543153947204394
+     },
+     "forced": {
+      "quality": 0.2812838109326831,
+      "task": 0.63274525677396
+     },
+     "same_action_image_fraction": 0.06852791878172589,
+     "images": 788,
+     "groups": 22
+    },
+    "safe_groups": {
+     "quality": 11,
+     "task": 22,
+     "joint": 11
+    }
+   },
+   "lraspp/raw/seed2": {
+    "images": 788,
+    "groups": 22,
+    "metric": "fg_iou",
+    "identity_task": 0.6179260542587839,
+    "task_change_vs_identity": {
+     "gray_world_mean": -0.0600716551759503,
+     "shallow_uwnet": -0.17266708955680193,
+     "funie_s20260913": -0.24025397347329006,
+     "funie_s20261013": -0.22264828537136117,
+     "lite_s20260913": -0.10271469322609054,
+     "lite_s20261013": -0.11159210381855654,
+     "deep_wavenet_euvp": -0.17758876943713442,
+     "uiec2net": -0.06761003694006401,
+     "uir_polykernel": -0.062404928476626355,
+     "syreanet": -0.12116140140846131,
+     "semi_uir": -0.037796673325602756,
+     "phaseformer_uieb": -0.03610003393804145,
+     "ushape_lsui": -0.15474073094259203,
+     "tacl": -0.05498228191476386
+    },
+    "decoupled": {
+     "quality": {
+      "quality": 0.2837040996289917,
+      "task": 0.616674938104809
+     },
+     "task": {
+      "quality": 0.19269451366834217,
+      "task": 0.6400688534503137
+     },
+     "forced": {
+      "quality": 0.28051308235412614,
+      "task": 0.6235732431153477
+     },
+     "same_action_image_fraction": 0.49746192893401014,
+     "images": 788,
+     "groups": 22
+    },
+    "safe_groups": {
+     "quality": 11,
+     "task": 22,
+     "joint": 8
+    }
+   }
+  },
+  "seed_noise_lraspp_raw": {
+   "pairs": 11820,
+   "mean_abs": 0.05457692049803452,
+   "median_abs": 0.036695747530599426,
+   "p95_abs": 0.1706908571811459,
+   "frac_above_tol": 0.8345177664974619,
+   "identity_mean_abs": 0.03132829556549917,
+   "identity_frac_above_tol": 0.7322335025380711
+  },
+  "dists": {
+   "per_action": {
+    "gray_world_mean": {
+     "dists_reduction": -0.018417569178372922,
+     "lpips_reduction": -0.14699426994216863
+    },
+    "shallow_uwnet": {
+     "dists_reduction": 0.0033310276239809367,
+     "lpips_reduction": -0.2432856376875531
+    },
+    "funie_s20260913": {
+     "dists_reduction": 0.027769801009333503,
+     "lpips_reduction": -0.23538560197321756
+    },
+    "funie_s20261013": {
+     "dists_reduction": 0.04600260314541031,
+     "lpips_reduction": -0.22005644154669055
+    },
+    "lite_s20260913": {
+     "dists_reduction": 0.05156804422725631,
+     "lpips_reduction": -0.11064218813929744
+    },
+    "lite_s20261013": {
+     "dists_reduction": 0.019833879150224457,
+     "lpips_reduction": -0.16590665091732235
+    },
+    "deep_wavenet_euvp": {
+     "dists_reduction": -0.017043077198769713,
+     "lpips_reduction": -0.2364792204979393
+    },
+    "uiec2net": {
+     "dists_reduction": 0.19352647960374147,
+     "lpips_reduction": -0.1675676506605338
+    },
+    "uir_polykernel": {
+     "dists_reduction": 0.09353310911154206,
+     "lpips_reduction": -0.07167631374540354
+    },
+    "syreanet": {
+     "dists_reduction": 0.19945681255047373,
+     "lpips_reduction": -0.18269728274188105
+    },
+    "semi_uir": {
+     "dists_reduction": 0.19370974600315094,
+     "lpips_reduction": -0.1565616921700462
+    },
+    "phaseformer_uieb": {
+     "dists_reduction": 0.09550329598814548,
+     "lpips_reduction": -0.09334677356210622
+    },
+    "ushape_lsui": {
+     "dists_reduction": 0.15485800836573946,
+     "lpips_reduction": -0.15619612542554887
+    },
+    "tacl": {
+     "dists_reduction": 0.19237741703788436,
+     "lpips_reduction": -0.14875901890260101
+    }
+   },
+   "spearman_lpips_vs_dists_across_actions": 0.24835164835164836,
+   "quality_safe_pairs": 45,
+   "quality_safe_pairs_also_dists_safe": 45,
+   "joint_safe_groups_with_dists_in_place_of_lpips": 22,
+   "same_quality_best_action_fraction": 0.013959390862944163
+  },
+  "selectors": {
+   "joint_safe_capacity": 8,
+   "cnn": {
+    "groups": 22,
+    "harmed_groups": 17,
+    "safe_improved_groups": 0
+   },
+   "fixed_training_fold": {
+    "groups": 22,
+    "harmed_groups": 0,
+    "safe_improved_groups": 0
+   },
+   "joint_oracle": {
+    "groups": 22,
+    "harmed_groups": 14,
+    "safe_improved_groups": 0
+   },
+   "probe": {
+    "groups": 22,
+    "harmed_groups": 22,
+    "safe_improved_groups": 0
+   },
+   "probe_source": "/root/ivcb/out/b5_probe_tub/predictions.jsonl",
+   "probe_folds": [
+    {
+     "fold": 0,
+     "images": 180,
+     "joint_probe": -0.17669072042387082,
+     "joint_fixed": 0.0,
+     "fixed": "identity"
+    },
+    {
+     "fold": 1,
+     "images": 180,
+     "joint_probe": -0.093815305383838,
+     "joint_fixed": 0.0,
+     "fixed": "identity"
+    },
+    {
+     "fold": 2,
+     "images": 144,
+     "joint_probe": -0.16637281867925802,
+     "joint_fixed": 0.0,
+     "fixed": "identity"
+    },
+    {
+     "fold": 3,
+     "images": 144,
+     "joint_probe": -0.0802949236438733,
+     "joint_fixed": 0.0,
+     "fixed": "identity"
+    },
+    {
+     "fold": 4,
+     "images": 140,
+     "joint_probe": -0.06791580177413939,
+     "joint_fixed": 0.0,
+     "fixed": "identity"
+    }
+   ],
+   "ridge": {
+    "groups": 22,
+    "harmed_groups": 22,
+    "safe_improved_groups": 0
+   },
+   "choice_counts": {
+    "cnn": {
+     "identity": 702,
+     "uir_polykernel": 43,
+     "lite_s20260913": 6,
+     "phaseformer_uieb": 21,
+     "semi_uir": 6,
+     "lite_s20261013": 8,
+     "uiec2net": 1,
+     "gray_world_mean": 1
+    },
+    "ridge": {
+     "tacl": 31,
+     "ushape_lsui": 178,
+     "shallow_uwnet": 44,
+     "funie_s20260913": 154,
+     "lite_s20260913": 71,
+     "uiec2net": 56,
+     "uir_polykernel": 16,
+     "gray_world_mean": 48,
+     "syreanet": 30,
+     "phaseformer_uieb": 69,
+     "semi_uir": 65,
+     "identity": 11,
+     "funie_s20261013": 9,
+     "deep_wavenet_euvp": 3,
+     "lite_s20261013": 3
+    },
+    "fixed": {
+     "identity": 788
+    }
+   }
+  },
+  "by_stage": [
+   {
+    "stage": 2,
+    "images": 88,
+    "turbidity": [
+     3.6178
+    ],
+    "identity_ssim": 0.8687290299803995,
+    "identity_lpips": 0.2932452059943568,
+    "identity_task": 0.87226924197277,
+    "same_best_fraction": 0.5795454545454546,
+    "images_with_joint_safe_alternative": 0,
+    "best_task_change": -0.0170627290521999,
+    "best_task_change_action": "gray_world_mean"
+   },
+   {
+    "stage": 3,
+    "images": 88,
+    "turbidity": [
+     7.0178
+    ],
+    "identity_ssim": 0.8168115959778128,
+    "identity_lpips": 0.42861698466268455,
+    "identity_task": 0.8214983938572215,
+    "same_best_fraction": 0.5,
+    "images_with_joint_safe_alternative": 6,
+    "best_task_change": -0.013100280626358858,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 4,
+    "images": 88,
+    "turbidity": [
+     7.1967
+    ],
+    "identity_ssim": 0.7902226108838338,
+    "identity_lpips": 0.49979015880010347,
+    "identity_task": 0.7498593032601889,
+    "same_best_fraction": 0.5795454545454546,
+    "images_with_joint_safe_alternative": 3,
+    "best_task_change": -0.024720862333564155,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 5,
+    "images": 88,
+    "turbidity": [
+     9.0444
+    ],
+    "identity_ssim": 0.777383794989225,
+    "identity_lpips": 0.5292190150781111,
+    "identity_task": 0.6680675073564881,
+    "same_best_fraction": 0.4772727272727273,
+    "images_with_joint_safe_alternative": 1,
+    "best_task_change": -0.03122297269339116,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 6,
+    "images": 88,
+    "turbidity": [
+     15.3567
+    ],
+    "identity_ssim": 0.7692902985611746,
+    "identity_lpips": 0.5441073179244995,
+    "identity_task": 0.5918768085981512,
+    "same_best_fraction": 0.4318181818181818,
+    "images_with_joint_safe_alternative": 3,
+    "best_task_change": -0.03838349545282935,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 7,
+    "images": 88,
+    "turbidity": [
+     17.2622
+    ],
+    "identity_ssim": 0.7649704917276481,
+    "identity_lpips": 0.5515042377466505,
+    "identity_task": 0.5290064063816282,
+    "same_best_fraction": 0.4659090909090909,
+    "images_with_joint_safe_alternative": 0,
+    "best_task_change": -0.04493166853549488,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 8,
+    "images": 88,
+    "turbidity": [
+     21.4922
+    ],
+    "identity_ssim": 0.7622083297495604,
+    "identity_lpips": 0.5560404885221611,
+    "identity_task": 0.4825619782684416,
+    "same_best_fraction": 0.4772727272727273,
+    "images_with_joint_safe_alternative": 2,
+    "best_task_change": -0.05223554024349961,
+    "best_task_change_action": "phaseformer_uieb"
+   },
+   {
+    "stage": 9,
+    "images": 88,
+    "turbidity": [
+     23.9244
+    ],
+    "identity_ssim": 0.760183290883599,
+    "identity_lpips": 0.5591579736633734,
+    "identity_task": 0.42814402956738246,
+    "same_best_fraction": 0.4318181818181818,
+    "images_with_joint_safe_alternative": 0,
+    "best_task_change": -0.059355676213700866,
+    "best_task_change_action": "tacl"
+   },
+   {
+    "stage": 10,
+    "images": 84,
+    "turbidity": [
+     34.1067
+    ],
+    "identity_ssim": 0.7572807736238931,
+    "identity_lpips": 0.56107506723631,
+    "identity_task": 0.38742138331053166,
+    "same_best_fraction": 0.3333333333333333,
+    "images_with_joint_safe_alternative": 0,
+    "best_task_change": -0.04325584067297769,
+    "best_task_change_action": "syreanet"
+   }
+  ]
+ }
+}

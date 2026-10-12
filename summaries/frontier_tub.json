@@ -1,0 +1,231 @@
+{
+ "dataset": "tub",
+ "images": 788,
+ "groups": 22,
+ "fixed_quality_action": "identity",
+ "frontier": [
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.25,
+   "target_groups": 3,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.25,
+   "target_groups": 6,
+   "max_groups": 22,
+   "min_other_harm": 1
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.5,
+   "target_groups": 6,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.5,
+   "target_groups": 11,
+   "max_groups": 22,
+   "min_other_harm": 3
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.75,
+   "target_groups": 8,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.75,
+   "target_groups": 16,
+   "max_groups": 22,
+   "min_other_harm": 8
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 1.0,
+   "target_groups": 11,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 1.0,
+   "target_groups": 22,
+   "max_groups": 22,
+   "min_other_harm": 14
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.25,
+   "target_groups": 3,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.25,
+   "target_groups": 6,
+   "max_groups": 22,
+   "min_other_harm": 1
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.5,
+   "target_groups": 6,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.5,
+   "target_groups": 11,
+   "max_groups": 22,
+   "min_other_harm": 3
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.75,
+   "target_groups": 8,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.75,
+   "target_groups": 16,
+   "max_groups": 22,
+   "min_other_harm": 8
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 1.0,
+   "target_groups": 11,
+   "max_groups": 11,
+   "min_other_harm": null
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 1.0,
+   "target_groups": 22,
+   "max_groups": 22,
+   "min_other_harm": 14
+  }
+ ],
+ "tolerance": [
+  {
+   "name": "base_0.01",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 11,
+   "task": 22,
+   "joint": 8
+  },
+  {
+   "name": "ssim_0.005",
+   "tol": {
+    "ssim": 0.005,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 10,
+   "task": 22,
+   "joint": 7
+  },
+  {
+   "name": "ssim_0.02",
+   "tol": {
+    "ssim": 0.02,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 11,
+   "task": 22,
+   "joint": 8
+  },
+  {
+   "name": "lpips_0.005",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.005,
+    "iou": 0.01
+   },
+   "quality": 9,
+   "task": 22,
+   "joint": 6
+  },
+  {
+   "name": "lpips_0.02",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.02,
+    "iou": 0.01
+   },
+   "quality": 15,
+   "task": 22,
+   "joint": 10
+  },
+  {
+   "name": "iou_0.005",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.005
+   },
+   "quality": 11,
+   "task": 22,
+   "joint": 7
+  },
+  {
+   "name": "iou_0.02",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.02
+   },
+   "quality": 11,
+   "task": 22,
+   "joint": 8
+  }
+ ]
+}

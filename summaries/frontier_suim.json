@@ -1,0 +1,231 @@
+{
+ "dataset": "suim",
+ "images": 1598,
+ "groups": 1465,
+ "fixed_quality_action": "uiec2net",
+ "frontier": [
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.25,
+   "target_groups": 349,
+   "max_groups": 1395,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.25,
+   "target_groups": 343,
+   "max_groups": 1371,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.5,
+   "target_groups": 698,
+   "max_groups": 1395,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.5,
+   "target_groups": 686,
+   "max_groups": 1371,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 0.75,
+   "target_groups": 1046,
+   "max_groups": 1395,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 0.75,
+   "target_groups": 1028,
+   "max_groups": 1371,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "quality_coverage",
+   "fraction": 1.0,
+   "target_groups": 1395,
+   "max_groups": 1395,
+   "min_other_harm": 200
+  },
+  {
+   "anchor": "identity",
+   "anchor_action": "identity",
+   "kind": "task_coverage",
+   "fraction": 1.0,
+   "target_groups": 1371,
+   "max_groups": 1371,
+   "min_other_harm": 176
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "quality_coverage",
+   "fraction": 0.25,
+   "target_groups": 278,
+   "max_groups": 1113,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "task_coverage",
+   "fraction": 0.25,
+   "target_groups": 358,
+   "max_groups": 1434,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "quality_coverage",
+   "fraction": 0.5,
+   "target_groups": 556,
+   "max_groups": 1113,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "task_coverage",
+   "fraction": 0.5,
+   "target_groups": 717,
+   "max_groups": 1434,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "quality_coverage",
+   "fraction": 0.75,
+   "target_groups": 835,
+   "max_groups": 1113,
+   "min_other_harm": 0
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "task_coverage",
+   "fraction": 0.75,
+   "target_groups": 1076,
+   "max_groups": 1434,
+   "min_other_harm": 163
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "quality_coverage",
+   "fraction": 1.0,
+   "target_groups": 1113,
+   "max_groups": 1113,
+   "min_other_harm": 200
+  },
+  {
+   "anchor": "best_fixed_quality",
+   "anchor_action": "uiec2net",
+   "kind": "task_coverage",
+   "fraction": 1.0,
+   "target_groups": 1434,
+   "max_groups": 1434,
+   "min_other_harm": 521
+  }
+ ],
+ "tolerance": [
+  {
+   "name": "base_0.01",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 1395,
+   "task": 1371,
+   "joint": 1195
+  },
+  {
+   "name": "ssim_0.005",
+   "tol": {
+    "ssim": 0.005,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 1391,
+   "task": 1371,
+   "joint": 1190
+  },
+  {
+   "name": "ssim_0.02",
+   "tol": {
+    "ssim": 0.02,
+    "lpips": 0.01,
+    "iou": 0.01
+   },
+   "quality": 1403,
+   "task": 1371,
+   "joint": 1210
+  },
+  {
+   "name": "lpips_0.005",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.005,
+    "iou": 0.01
+   },
+   "quality": 1370,
+   "task": 1371,
+   "joint": 1166
+  },
+  {
+   "name": "lpips_0.02",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.02,
+    "iou": 0.01
+   },
+   "quality": 1423,
+   "task": 1371,
+   "joint": 1231
+  },
+  {
+   "name": "iou_0.005",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.005
+   },
+   "quality": 1395,
+   "task": 1338,
+   "joint": 1142
+  },
+  {
+   "name": "iou_0.02",
+   "tol": {
+    "ssim": 0.01,
+    "lpips": 0.01,
+    "iou": 0.02
+   },
+   "quality": 1395,
+   "task": 1417,
+   "joint": 1267
+  }
+ ]
+}

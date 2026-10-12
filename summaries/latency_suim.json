@@ -1,0 +1,568 @@
+{
+ "summary": {
+  "device": "cpu",
+  "threads": 4,
+  "images": 16,
+  "rounds": 3,
+  "load": {
+   "p50": 6.663287058472633,
+   "p95": 20.46376764774321,
+   "max": 27.793873101472855,
+   "n": 48
+  },
+  "features": {
+   "p50": 4.813913255929947,
+   "p95": 5.726427212357521,
+   "max": 9.861942380666733,
+   "n": 48
+  },
+  "cnn": {
+   "p50": 13.68073932826519,
+   "p95": 16.717239655554295,
+   "max": 23.743290454149246,
+   "n": 48
+  },
+  "enhance": {
+   "p50": 2964.8024812340736,
+   "p95": 7085.354878008366,
+   "max": 7580.5901400744915,
+   "n": 27
+  },
+  "total": {
+   "p50": 944.2569706588984,
+   "p95": 5666.253294609482,
+   "max": 7611.630130559206,
+   "n": 48
+  }
+ },
+ "rows": [
+  {
+   "round": 0,
+   "id": "train_val/f_r_969_",
+   "load_ms": 8.94254818558693,
+   "features_ms": 9.861942380666733,
+   "cnn_ms": 23.743290454149246,
+   "enhance_ms": 2982.600972056389,
+   "error": "",
+   "total_ms": 3315.6609013676643,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 0,
+   "id": "train_val/d_r_776_",
+   "load_ms": 12.313611805438995,
+   "features_ms": 5.4757259786129,
+   "cnn_ms": 22.673428058624268,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1553.7817031145096,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_1935_",
+   "load_ms": 5.861219018697739,
+   "features_ms": 4.547368735074997,
+   "cnn_ms": 12.383975088596344,
+   "enhance_ms": 2989.528764039278,
+   "error": "",
+   "total_ms": 3012.3371072113514,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_1300_",
+   "load_ms": 6.873834878206253,
+   "features_ms": 4.834160208702087,
+   "cnn_ms": 16.717877238988876,
+   "enhance_ms": 0.4489496350288391,
+   "error": "",
+   "total_ms": 28.91252189874649,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "train_val/d_r_3_",
+   "load_ms": 27.793873101472855,
+   "features_ms": 5.95242902636528,
+   "cnn_ms": 16.71605557203293,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1046.2144501507282,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_1650_",
+   "load_ms": 8.318886160850525,
+   "features_ms": 4.976425319910049,
+   "cnn_ms": 14.38748836517334,
+   "enhance_ms": 2987.5259958207607,
+   "error": "",
+   "total_ms": 3015.2252167463303,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_936_",
+   "load_ms": 7.526349276304245,
+   "features_ms": 4.793666303157806,
+   "cnn_ms": 14.812197536230087,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 780.5301994085312,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/w_r_123_",
+   "load_ms": 6.673350930213928,
+   "features_ms": 4.486020654439926,
+   "cnn_ms": 12.869711965322495,
+   "enhance_ms": 0.4802495241165161,
+   "error": "",
+   "total_ms": 24.519242346286774,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_1837_",
+   "load_ms": 6.182931363582611,
+   "features_ms": 4.48768213391304,
+   "cnn_ms": 11.707890778779984,
+   "enhance_ms": 13.948511332273483,
+   "error": "",
+   "total_ms": 36.355309188365936,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_366_",
+   "load_ms": 5.625404417514801,
+   "features_ms": 4.358876496553421,
+   "cnn_ms": 12.330148369073868,
+   "enhance_ms": 12.567616999149323,
+   "error": "",
+   "total_ms": 34.8944291472435,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 0,
+   "id": "train_val/w_r_250_",
+   "load_ms": 5.6681036949157715,
+   "features_ms": 4.507724195718765,
+   "cnn_ms": 11.988431215286255,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 792.710293084383,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/d_r_618_",
+   "load_ms": 14.551553875207901,
+   "features_ms": 5.472887307405472,
+   "cnn_ms": 15.396740287542343,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1032.6107665896416,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/n_l_21_",
+   "load_ms": 8.456293493509293,
+   "features_ms": 5.03888726234436,
+   "cnn_ms": 13.403225690126419,
+   "enhance_ms": 7163.065735250711,
+   "error": "",
+   "total_ms": 7231.648229062557,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_2080_",
+   "load_ms": 6.922286003828049,
+   "features_ms": 4.620566964149475,
+   "cnn_ms": 14.615345746278763,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 798.9039979875088,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/n_l_89_",
+   "load_ms": 6.536345928907394,
+   "features_ms": 4.668865352869034,
+   "cnn_ms": 13.691134750843048,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 798.6225225031376,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 0,
+   "id": "train_val/f_r_603_",
+   "load_ms": 6.492696702480316,
+   "features_ms": 4.747346043586731,
+   "cnn_ms": 12.554250657558441,
+   "enhance_ms": 2993.593320250511,
+   "error": "",
+   "total_ms": 3017.403919249773,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_969_",
+   "load_ms": 6.299719214439392,
+   "features_ms": 4.752650856971741,
+   "cnn_ms": 12.850552797317505,
+   "enhance_ms": 3048.421997576952,
+   "error": "",
+   "total_ms": 3072.336070239544,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 1,
+   "id": "train_val/d_r_776_",
+   "load_ms": 13.564344495534897,
+   "features_ms": 5.4238103330135345,
+   "cnn_ms": 14.581829309463501,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1034.5411710441113,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_1935_",
+   "load_ms": 6.1709098517894745,
+   "features_ms": 4.44846972823143,
+   "cnn_ms": 12.51276209950447,
+   "enhance_ms": 3088.3108898997307,
+   "error": "",
+   "total_ms": 3111.4530190825462,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_1300_",
+   "load_ms": 6.675161421298981,
+   "features_ms": 5.11009618639946,
+   "cnn_ms": 16.35664701461792,
+   "enhance_ms": 0.5001723766326904,
+   "error": "",
+   "total_ms": 28.651271015405655,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "train_val/d_r_3_",
+   "load_ms": 25.46646073460579,
+   "features_ms": 5.559161305427551,
+   "cnn_ms": 15.660859644412994,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1097.8365689516068,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_1650_",
+   "load_ms": 5.950305610895157,
+   "features_ms": 4.745867103338242,
+   "cnn_ms": 13.097092509269714,
+   "enhance_ms": 3048.1903553009033,
+   "error": "",
+   "total_ms": 3071.9942562282085,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_936_",
+   "load_ms": 6.581448018550873,
+   "features_ms": 4.876784980297089,
+   "cnn_ms": 13.411961495876312,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 836.9309268891811,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/w_r_123_",
+   "load_ms": 7.308483123779297,
+   "features_ms": 4.883892834186554,
+   "cnn_ms": 13.798706233501434,
+   "enhance_ms": 0.8116252720355988,
+   "error": "",
+   "total_ms": 26.811089366674423,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_1837_",
+   "load_ms": 6.6532231867313385,
+   "features_ms": 4.852533340454102,
+   "cnn_ms": 12.872431427240372,
+   "enhance_ms": 16.520604491233826,
+   "error": "",
+   "total_ms": 40.908146649599075,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_366_",
+   "load_ms": 5.83934411406517,
+   "features_ms": 4.555009305477142,
+   "cnn_ms": 12.487959116697311,
+   "enhance_ms": 13.52628692984581,
+   "error": "",
+   "total_ms": 36.419738084077835,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 1,
+   "id": "train_val/w_r_250_",
+   "load_ms": 5.9073567390441895,
+   "features_ms": 4.6759359538555145,
+   "cnn_ms": 13.312190771102905,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 806.6055253148079,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/d_r_618_",
+   "load_ms": 12.935791164636612,
+   "features_ms": 5.240526050329208,
+   "cnn_ms": 15.31071588397026,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1139.6363265812397,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/n_l_21_",
+   "load_ms": 9.752251207828522,
+   "features_ms": 5.653668195009232,
+   "cnn_ms": 15.626024454832077,
+   "enhance_ms": 7580.5901400744915,
+   "error": "",
+   "total_ms": 7611.630130559206,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_2080_",
+   "load_ms": 6.75409659743309,
+   "features_ms": 4.935909062623978,
+   "cnn_ms": 15.619829297065735,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 867.695938795805,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/n_l_89_",
+   "load_ms": 6.326369941234589,
+   "features_ms": 4.999436438083649,
+   "cnn_ms": 14.028072357177734,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 850.2782173454762,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 1,
+   "id": "train_val/f_r_603_",
+   "load_ms": 6.525110453367233,
+   "features_ms": 4.889428615570068,
+   "cnn_ms": 12.91036605834961,
+   "enhance_ms": 3217.460185289383,
+   "error": "",
+   "total_ms": 3241.7984418570995,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_969_",
+   "load_ms": 6.596218794584274,
+   "features_ms": 5.107250064611435,
+   "cnn_ms": 12.305855751037598,
+   "enhance_ms": 3180.954299867153,
+   "error": "",
+   "total_ms": 3204.973429441452,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 2,
+   "id": "train_val/d_r_776_",
+   "load_ms": 13.648547232151031,
+   "features_ms": 5.763005465269089,
+   "cnn_ms": 16.306519508361816,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1093.7482379376888,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_1935_",
+   "load_ms": 5.922082811594009,
+   "features_ms": 4.524353891611099,
+   "cnn_ms": 12.02452927827835,
+   "enhance_ms": 2961.981985718012,
+   "error": "",
+   "total_ms": 2984.463833272457,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_1300_",
+   "load_ms": 5.803361535072327,
+   "features_ms": 4.749670624732971,
+   "cnn_ms": 13.739921152591705,
+   "enhance_ms": 0.5104206502437592,
+   "error": "",
+   "total_ms": 24.813536554574966,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "train_val/d_r_3_",
+   "load_ms": 23.647267371416092,
+   "features_ms": 5.349412560462952,
+   "cnn_ms": 15.13746753334999,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1081.2130868434906,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_1650_",
+   "load_ms": 6.300579756498337,
+   "features_ms": 4.6959370374679565,
+   "cnn_ms": 14.800891280174255,
+   "enhance_ms": 3053.132575005293,
+   "error": "",
+   "total_ms": 3078.937631100416,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_936_",
+   "load_ms": 8.264701813459396,
+   "features_ms": 5.065612494945526,
+   "cnn_ms": 15.086624771356583,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 827.7272060513496,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/w_r_123_",
+   "load_ms": 6.8665556609630585,
+   "features_ms": 4.471134394407272,
+   "cnn_ms": 12.946698814630508,
+   "enhance_ms": 0.5249865353107452,
+   "error": "",
+   "total_ms": 24.817947298288345,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_1837_",
+   "load_ms": 6.907898932695389,
+   "features_ms": 4.621338099241257,
+   "cnn_ms": 13.215254992246628,
+   "enhance_ms": 16.124773770570755,
+   "error": "",
+   "total_ms": 40.87807610630989,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_366_",
+   "load_ms": 5.8214254677295685,
+   "features_ms": 4.641670733690262,
+   "cnn_ms": 13.670343905687332,
+   "enhance_ms": 13.555970042943954,
+   "error": "",
+   "total_ms": 37.70052269101143,
+   "chosen": "gray_world_mean"
+  },
+  {
+   "round": 2,
+   "id": "train_val/w_r_250_",
+   "load_ms": 6.005149334669113,
+   "features_ms": 4.714362323284149,
+   "cnn_ms": 12.498844414949417,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 773.1813192367554,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/d_r_618_",
+   "load_ms": 12.918557971715927,
+   "features_ms": 5.658496171236038,
+   "cnn_ms": 14.315348118543625,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 1020.8180025219917,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/n_l_21_",
+   "load_ms": 8.924055844545364,
+   "features_ms": 5.160916596651077,
+   "cnn_ms": 13.832852244377136,
+   "enhance_ms": 6904.029544442892,
+   "error": "",
+   "total_ms": 6931.9568909704685,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_2080_",
+   "load_ms": 6.0098133981227875,
+   "features_ms": 4.782877862453461,
+   "cnn_ms": 13.54382187128067,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 814.2375722527504,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/n_l_89_",
+   "load_ms": 5.996540188789368,
+   "features_ms": 4.488997161388397,
+   "cnn_ms": 12.150775641202927,
+   "enhance_ms": null,
+   "error": "Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!",
+   "total_ms": 802.0270839333534,
+   "chosen": "uiec2net"
+  },
+  {
+   "round": 2,
+   "id": "train_val/f_r_603_",
+   "load_ms": 5.966302007436752,
+   "features_ms": 4.587728530168533,
+   "cnn_ms": 12.679729610681534,
+   "enhance_ms": 2964.8024812340736,
+   "error": "",
+   "total_ms": 2988.0459792912006,
+   "chosen": "uir_polykernel"
+  }
+ ]
+}

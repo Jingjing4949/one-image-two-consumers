@@ -1,0 +1,48 @@
+{
+  "images": 788,
+  "epochs": 8,
+  "seed": 20261011,
+  "task_endpoint": "lraspp raw",
+  "folds": [
+    {
+      "fold": 0,
+      "test_images": 180,
+      "fixed_action": "identity",
+      "mean_joint_pred": -0.012391539663076401,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0018591885429082645
+    },
+    {
+      "fold": 1,
+      "test_images": 180,
+      "fixed_action": "identity",
+      "mean_joint_pred": -0.013942015771236684,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0012893772373596827
+    },
+    {
+      "fold": 2,
+      "test_images": 144,
+      "fixed_action": "identity",
+      "mean_joint_pred": -0.0015183181191484134,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.003656458439460645
+    },
+    {
+      "fold": 3,
+      "test_images": 144,
+      "fixed_action": "identity",
+      "mean_joint_pred": -0.03259138848322133,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0014236704705076085
+    },
+    {
+      "fold": 4,
+      "test_images": 140,
+      "fixed_action": "identity",
+      "mean_joint_pred": -0.009722129202314786,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.003522221527029095
+    }
+  ]
+}

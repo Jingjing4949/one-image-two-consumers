@@ -1,0 +1,568 @@
+{
+ "summary": {
+  "device": "cpu",
+  "threads": 4,
+  "images": 16,
+  "rounds": 3,
+  "load": {
+   "p50": 22.346695885062218,
+   "p95": 26.950393430888653,
+   "max": 32.69188851118088,
+   "n": 48
+  },
+  "features": {
+   "p50": 5.155187100172043,
+   "p95": 5.841507948935032,
+   "max": 10.846752673387527,
+   "n": 48
+  },
+  "cnn": {
+   "p50": 14.831162989139557,
+   "p95": 19.340253621339798,
+   "max": 161.345012485981,
+   "n": 48
+  },
+  "enhance": {
+   "p50": 0.5856063216924667,
+   "p95": 6089.414101839062,
+   "max": 7246.287565678358,
+   "n": 48
+  },
+  "total": {
+   "p50": 43.78222115337849,
+   "p95": 6373.627209663388,
+   "max": 7593.405213207006,
+   "n": 48
+  }
+ },
+ "rows": [
+  {
+   "round": 0,
+   "id": "Exp11_Cam1_Stage10",
+   "load_ms": 32.69188851118088,
+   "features_ms": 10.846752673387527,
+   "cnn_ms": 161.345012485981,
+   "enhance_ms": 0.5974285304546356,
+   "error": "",
+   "total_ms": 205.5012471973896,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp16_Cam2_Stage04",
+   "load_ms": 27.30964496731758,
+   "features_ms": 5.216687917709351,
+   "cnn_ms": 19.833456724882126,
+   "enhance_ms": 0.5994327366352081,
+   "error": "",
+   "total_ms": 52.96442285180092,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp6_Cam1_Stage06",
+   "load_ms": 24.09389242529869,
+   "features_ms": 5.503278225660324,
+   "cnn_ms": 15.990626066923141,
+   "enhance_ms": 2.0480267703533173,
+   "error": "",
+   "total_ms": 47.643031924963,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp8_Cam2_Stage08",
+   "load_ms": 28.819654136896133,
+   "features_ms": 5.2723996341228485,
+   "cnn_ms": 18.65389198064804,
+   "enhance_ms": 0.5978606641292572,
+   "error": "",
+   "total_ms": 53.34891006350517,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp2_Cam3_Stage05",
+   "load_ms": 25.832947343587875,
+   "features_ms": 5.209241062402725,
+   "cnn_ms": 19.04422789812088,
+   "enhance_ms": 0.6080269813537598,
+   "error": "",
+   "total_ms": 50.6991483271122,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp10_Cam1_Stage03",
+   "load_ms": 25.494661182165146,
+   "features_ms": 5.163487046957016,
+   "cnn_ms": 17.60163903236389,
+   "enhance_ms": 0.5704686045646667,
+   "error": "",
+   "total_ms": 48.83493855595589,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp6_Cam1_Stage08",
+   "load_ms": 24.957038462162018,
+   "features_ms": 5.2375346422195435,
+   "cnn_ms": 17.278321087360382,
+   "enhance_ms": 0.5688220262527466,
+   "error": "",
+   "total_ms": 48.04564639925957,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp10_Cam1_Stage09",
+   "load_ms": 25.61262995004654,
+   "features_ms": 5.288757383823395,
+   "cnn_ms": 18.148519098758698,
+   "enhance_ms": 0.6112083792686462,
+   "error": "",
+   "total_ms": 49.66595768928528,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp32_Cam4_Stage09",
+   "load_ms": 23.801196366548538,
+   "features_ms": 5.065556615591049,
+   "cnn_ms": 17.68108457326889,
+   "enhance_ms": 0.5868934094905853,
+   "error": "",
+   "total_ms": 47.13871702551842,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp32_Cam3_Stage06",
+   "load_ms": 23.20452779531479,
+   "features_ms": 5.154121667146683,
+   "cnn_ms": 18.62688735127449,
+   "enhance_ms": 0.5984269082546234,
+   "error": "",
+   "total_ms": 47.586772590875626,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp14_Cam2_Stage04",
+   "load_ms": 23.440975695848465,
+   "features_ms": 5.421347916126251,
+   "cnn_ms": 16.930989921092987,
+   "enhance_ms": 0.5414523184299469,
+   "error": "",
+   "total_ms": 46.337757259607315,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp10_Cam1_Stage04",
+   "load_ms": 25.37268027663231,
+   "features_ms": 5.596257746219635,
+   "cnn_ms": 19.499652087688446,
+   "enhance_ms": 0.6583258509635925,
+   "error": "",
+   "total_ms": 51.13070085644722,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp33_Cam1_Stage06",
+   "load_ms": 23.43597263097763,
+   "features_ms": 5.092930048704147,
+   "cnn_ms": 17.145130783319473,
+   "enhance_ms": 7246.287565678358,
+   "error": "",
+   "total_ms": 7593.405213207006,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 0,
+   "id": "Exp27_Cam3_Stage10",
+   "load_ms": 25.927256792783737,
+   "features_ms": 5.865015089511871,
+   "cnn_ms": 18.052034080028534,
+   "enhance_ms": 1.3795197010040283,
+   "error": "",
+   "total_ms": 51.23107135295868,
+   "chosen": "identity"
+  },
+  {
+   "round": 0,
+   "id": "Exp22_Cam2_Stage09",
+   "load_ms": 21.690845489501953,
+   "features_ms": 5.445465445518494,
+   "cnn_ms": 14.928679913282394,
+   "enhance_ms": 4232.544764876366,
+   "error": "",
+   "total_ms": 4969.045553356409,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 0,
+   "id": "Exp31_Cam3_Stage08",
+   "load_ms": 22.104617208242416,
+   "features_ms": 5.7978518307209015,
+   "cnn_ms": 16.92930981516838,
+   "enhance_ms": 0.6029792129993439,
+   "error": "",
+   "total_ms": 45.442309230566025,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp11_Cam1_Stage10",
+   "load_ms": 22.092260420322418,
+   "features_ms": 5.0856806337833405,
+   "cnn_ms": 14.649294316768646,
+   "enhance_ms": 0.5864351987838745,
+   "error": "",
+   "total_ms": 42.42116957902908,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp16_Cam2_Stage04",
+   "load_ms": 22.36974984407425,
+   "features_ms": 4.936601966619492,
+   "cnn_ms": 14.983084052801132,
+   "enhance_ms": 0.5751177668571472,
+   "error": "",
+   "total_ms": 42.871445417404175,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp6_Cam1_Stage06",
+   "load_ms": 22.770758718252182,
+   "features_ms": 5.466628819704056,
+   "cnn_ms": 14.914747327566147,
+   "enhance_ms": 0.5434900522232056,
+   "error": "",
+   "total_ms": 43.70380565524101,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp8_Cam2_Stage08",
+   "load_ms": 21.938499063253403,
+   "features_ms": 5.25820255279541,
+   "cnn_ms": 13.841602951288223,
+   "enhance_ms": 0.584430992603302,
+   "error": "",
+   "total_ms": 41.631001979112625,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp2_Cam3_Stage05",
+   "load_ms": 22.401589900255203,
+   "features_ms": 5.051184445619583,
+   "cnn_ms": 13.401638716459274,
+   "enhance_ms": 0.5778968334197998,
+   "error": "",
+   "total_ms": 41.43884778022766,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp10_Cam1_Stage03",
+   "load_ms": 22.383365780115128,
+   "features_ms": 5.056779831647873,
+   "cnn_ms": 13.609632849693298,
+   "enhance_ms": 0.52618607878685,
+   "error": "",
+   "total_ms": 41.579410433769226,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp6_Cam1_Stage08",
+   "load_ms": 22.03669771552086,
+   "features_ms": 5.086980760097504,
+   "cnn_ms": 12.846048921346664,
+   "enhance_ms": 0.5652680993080139,
+   "error": "",
+   "total_ms": 40.53819552063942,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp10_Cam1_Stage09",
+   "load_ms": 22.374190390110016,
+   "features_ms": 5.045492202043533,
+   "cnn_ms": 14.651734381914139,
+   "enhance_ms": 0.5691163241863251,
+   "error": "",
+   "total_ms": 42.64438897371292,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp32_Cam4_Stage09",
+   "load_ms": 21.37186750769615,
+   "features_ms": 5.156252533197403,
+   "cnn_ms": 13.947319239377975,
+   "enhance_ms": 0.5682185292243958,
+   "error": "",
+   "total_ms": 41.05391725897789,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp32_Cam3_Stage06",
+   "load_ms": 21.181538701057434,
+   "features_ms": 5.0324611365795135,
+   "cnn_ms": 13.86713981628418,
+   "enhance_ms": 0.5791857838630676,
+   "error": "",
+   "total_ms": 40.66310077905655,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp14_Cam2_Stage04",
+   "load_ms": 22.26429060101509,
+   "features_ms": 5.235143005847931,
+   "cnn_ms": 14.1628198325634,
+   "enhance_ms": 0.5493201315402985,
+   "error": "",
+   "total_ms": 42.21964627504349,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp10_Cam1_Stage04",
+   "load_ms": 22.06239476799965,
+   "features_ms": 5.116507411003113,
+   "cnn_ms": 13.024158775806427,
+   "enhance_ms": 0.584777444601059,
+   "error": "",
+   "total_ms": 40.79071432352066,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp33_Cam1_Stage06",
+   "load_ms": 21.367959678173065,
+   "features_ms": 5.180142819881439,
+   "cnn_ms": 14.1138955950737,
+   "enhance_ms": 7089.266821742058,
+   "error": "",
+   "total_ms": 7129.9404092133045,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 1,
+   "id": "Exp27_Cam3_Stage10",
+   "load_ms": 22.323641926050186,
+   "features_ms": 5.069822072982788,
+   "cnn_ms": 15.192817896604538,
+   "enhance_ms": 0.6184913218021393,
+   "error": "",
+   "total_ms": 43.21299493312836,
+   "chosen": "identity"
+  },
+  {
+   "round": 1,
+   "id": "Exp22_Cam2_Stage09",
+   "load_ms": 20.635392516851425,
+   "features_ms": 5.031663924455643,
+   "cnn_ms": 14.816485345363617,
+   "enhance_ms": 4091.695588082075,
+   "error": "",
+   "total_ms": 4132.185470312834,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 1,
+   "id": "Exp31_Cam3_Stage08",
+   "load_ms": 22.66862988471985,
+   "features_ms": 5.280710756778717,
+   "cnn_ms": 16.037527471780777,
+   "enhance_ms": 0.6387569010257721,
+   "error": "",
+   "total_ms": 44.630005955696106,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp11_Cam1_Stage10",
+   "load_ms": 23.867059499025345,
+   "features_ms": 5.702313035726547,
+   "cnn_ms": 13.848934322595596,
+   "enhance_ms": 0.5526766180992126,
+   "error": "",
+   "total_ms": 43.974507600069046,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp16_Cam2_Stage04",
+   "load_ms": 22.307012230157852,
+   "features_ms": 5.063973367214203,
+   "cnn_ms": 14.103002846240997,
+   "enhance_ms": 0.5547702312469482,
+   "error": "",
+   "total_ms": 42.03249141573906,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp6_Cam1_Stage06",
+   "load_ms": 21.375160664319992,
+   "features_ms": 5.140833556652069,
+   "cnn_ms": 13.441719114780426,
+   "enhance_ms": 0.6031021475791931,
+   "error": "",
+   "total_ms": 40.56449607014656,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp8_Cam2_Stage08",
+   "load_ms": 23.20503443479538,
+   "features_ms": 5.232095718383789,
+   "cnn_ms": 14.845840632915497,
+   "enhance_ms": 0.5741454660892487,
+   "error": "",
+   "total_ms": 43.86063665151596,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp2_Cam3_Stage05",
+   "load_ms": 22.134050726890564,
+   "features_ms": 5.424343049526215,
+   "cnn_ms": 14.525316655635834,
+   "enhance_ms": 0.5793683230876923,
+   "error": "",
+   "total_ms": 42.66620799899101,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp10_Cam1_Stage03",
+   "load_ms": 20.978085696697235,
+   "features_ms": 5.051657557487488,
+   "cnn_ms": 14.012780040502548,
+   "enhance_ms": 0.5518943071365356,
+   "error": "",
+   "total_ms": 40.59739410877228,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp6_Cam1_Stage08",
+   "load_ms": 21.93446084856987,
+   "features_ms": 5.068570375442505,
+   "cnn_ms": 13.417009264230728,
+   "enhance_ms": 0.601012259721756,
+   "error": "",
+   "total_ms": 41.02512449026108,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp10_Cam1_Stage09",
+   "load_ms": 22.495564073324203,
+   "features_ms": 5.217470228672028,
+   "cnn_ms": 15.311188995838165,
+   "enhance_ms": 0.5884170532226562,
+   "error": "",
+   "total_ms": 43.61637681722641,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp32_Cam4_Stage09",
+   "load_ms": 19.80428397655487,
+   "features_ms": 5.034696310758591,
+   "cnn_ms": 14.768563210964203,
+   "enhance_ms": 0.5824044346809387,
+   "error": "",
+   "total_ms": 40.19365832209587,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp32_Cam3_Stage06",
+   "load_ms": 21.197829395532608,
+   "features_ms": 5.002152174711227,
+   "cnn_ms": 13.026446104049683,
+   "enhance_ms": 0.5727857351303101,
+   "error": "",
+   "total_ms": 39.80260342359543,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp14_Cam2_Stage04",
+   "load_ms": 21.742980927228928,
+   "features_ms": 4.996068775653839,
+   "cnn_ms": 13.340208679437637,
+   "enhance_ms": 0.5538091063499451,
+   "error": "",
+   "total_ms": 40.63645377755165,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp10_Cam1_Stage04",
+   "load_ms": 20.716998726129532,
+   "features_ms": 5.067802965641022,
+   "cnn_ms": 13.408191502094269,
+   "enhance_ms": 0.5835779011249542,
+   "error": "",
+   "total_ms": 39.779894053936005,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp33_Cam1_Stage06",
+   "load_ms": 19.65438574552536,
+   "features_ms": 5.044855177402496,
+   "cnn_ms": 14.55768197774887,
+   "enhance_ms": 7174.120429903269,
+   "error": "",
+   "total_ms": 7213.387995958328,
+   "chosen": "phaseformer_uieb"
+  },
+  {
+   "round": 2,
+   "id": "Exp27_Cam3_Stage10",
+   "load_ms": 26.28321200609207,
+   "features_ms": 6.376642733812332,
+   "cnn_ms": 18.37300881743431,
+   "enhance_ms": 0.5950555205345154,
+   "error": "",
+   "total_ms": 51.63513123989105,
+   "chosen": "identity"
+  },
+  {
+   "round": 2,
+   "id": "Exp22_Cam2_Stage09",
+   "load_ms": 21.00895345211029,
+   "features_ms": 5.029652267694473,
+   "cnn_ms": 15.53674042224884,
+   "enhance_ms": 3990.836437791586,
+   "error": "",
+   "total_ms": 4032.4230529367924,
+   "chosen": "uir_polykernel"
+  },
+  {
+   "round": 2,
+   "id": "Exp31_Cam3_Stage08",
+   "load_ms": 20.79692855477333,
+   "features_ms": 5.151960998773575,
+   "cnn_ms": 14.66786116361618,
+   "enhance_ms": 0.5456209182739258,
+   "error": "",
+   "total_ms": 41.1708727478981,
+   "chosen": "identity"
+  }
+ ]
+}

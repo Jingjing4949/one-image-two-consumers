@@ -1,0 +1,48 @@
+{
+  "images": 1598,
+  "epochs": 8,
+  "seed": 20261011,
+  "task_endpoint": "lraspp raw",
+  "folds": [
+    {
+      "fold": 0,
+      "test_images": 315,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_pred": 0.16829986919257198,
+      "mean_joint_fixed": 0.15616190476298686,
+      "mean_joint_oracle": 0.2541802124996182
+    },
+    {
+      "fold": 1,
+      "test_images": 322,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_pred": 0.14813883635736078,
+      "mean_joint_fixed": 0.1600484561120154,
+      "mean_joint_oracle": 0.24572842310816165
+    },
+    {
+      "fold": 2,
+      "test_images": 318,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_pred": 0.13177972759098933,
+      "mean_joint_fixed": 0.12079737609715066,
+      "mean_joint_oracle": 0.21449719166746303
+    },
+    {
+      "fold": 3,
+      "test_images": 321,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_pred": 0.15923338311773688,
+      "mean_joint_fixed": 0.1621630743705897,
+      "mean_joint_oracle": 0.24704764365157653
+    },
+    {
+      "fold": 4,
+      "test_images": 322,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_pred": 0.13582038490035894,
+      "mean_joint_fixed": 0.1351607424548324,
+      "mean_joint_oracle": 0.23885708718173068
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "images": 788,
+  "rule": "mean raw max-probability",
+  "folds": [
+    {
+      "fold": 0,
+      "test_images": 180,
+      "fixed_action": "identity",
+      "mean_joint_probe": -0.17669072035286162,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0018591885429082645
+    },
+    {
+      "fold": 1,
+      "test_images": 180,
+      "fixed_action": "identity",
+      "mean_joint_probe": -0.09381530524955856,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0012893772373596827
+    },
+    {
+      "fold": 2,
+      "test_images": 144,
+      "fixed_action": "identity",
+      "mean_joint_probe": -0.1663728191698384,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.003656458439460645
+    },
+    {
+      "fold": 3,
+      "test_images": 144,
+      "fixed_action": "identity",
+      "mean_joint_probe": -0.08029492441306098,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.0014236704705076085
+    },
+    {
+      "fold": 4,
+      "test_images": 140,
+      "fixed_action": "identity",
+      "mean_joint_probe": -0.06791580133140088,
+      "mean_joint_fixed": 0.0,
+      "mean_joint_oracle": 0.003522221527029095
+    }
+  ]
+}

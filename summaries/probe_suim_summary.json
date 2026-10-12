@@ -1,0 +1,46 @@
+{
+  "images": 1598,
+  "rule": "mean raw max-probability",
+  "folds": [
+    {
+      "fold": 0,
+      "test_images": 315,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_probe": -0.0004811331969759767,
+      "mean_joint_fixed": 0.15616190433502197,
+      "mean_joint_oracle": 0.2541802124996182
+    },
+    {
+      "fold": 1,
+      "test_images": 322,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_probe": -0.008252365805312805,
+      "mean_joint_fixed": 0.1600484699010849,
+      "mean_joint_oracle": 0.24572842310816165
+    },
+    {
+      "fold": 2,
+      "test_images": 318,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_probe": -0.038464179365755115,
+      "mean_joint_fixed": 0.12079738080501556,
+      "mean_joint_oracle": 0.21449719166746303
+    },
+    {
+      "fold": 3,
+      "test_images": 321,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_probe": 0.013089009617945626,
+      "mean_joint_fixed": 0.16216307878494263,
+      "mean_joint_oracle": 0.24704764365157653
+    },
+    {
+      "fold": 4,
+      "test_images": 322,
+      "fixed_action": "uir_polykernel",
+      "mean_joint_probe": -0.03454016402265439,
+      "mean_joint_fixed": 0.13516074419021606,
+      "mean_joint_oracle": 0.23885708718173068
+    }
+  ]
+}

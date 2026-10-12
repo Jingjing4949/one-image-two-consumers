@@ -1,0 +1,239 @@
+{
+ "name": "tub",
+ "images": 788,
+ "groups": 22,
+ "decoupled": {
+  "quality": {
+   "quality": 0.2837040996289917,
+   "task": 0.6142399641533861,
+   "action_counts": {
+    "identity": 757,
+    "gray_world_mean": 0,
+    "shallow_uwnet": 0,
+    "funie_s20260913": 0,
+    "funie_s20261013": 0,
+    "lite_s20260913": 0,
+    "lite_s20261013": 0,
+    "deep_wavenet_euvp": 0,
+    "uiec2net": 0,
+    "uir_polykernel": 10,
+    "syreanet": 0,
+    "semi_uir": 5,
+    "phaseformer_uieb": 11,
+    "ushape_lsui": 3,
+    "tacl": 2
+   }
+  },
+  "task": {
+   "quality": 0.19602053833186375,
+   "task": 0.6372370125784919,
+   "action_counts": {
+    "identity": 393,
+    "gray_world_mean": 43,
+    "shallow_uwnet": 8,
+    "funie_s20260913": 4,
+    "funie_s20261013": 6,
+    "lite_s20260913": 33,
+    "lite_s20261013": 28,
+    "deep_wavenet_euvp": 10,
+    "uiec2net": 17,
+    "uir_polykernel": 38,
+    "syreanet": 24,
+    "semi_uir": 51,
+    "phaseformer_uieb": 97,
+    "ushape_lsui": 3,
+    "tacl": 33
+   }
+  },
+  "forced": {
+   "quality": 0.2811972646592732,
+   "task": 0.619994710243762,
+   "action_counts": {
+    "identity": 725,
+    "gray_world_mean": 0,
+    "shallow_uwnet": 0,
+    "funie_s20260913": 0,
+    "funie_s20261013": 0,
+    "lite_s20260913": 1,
+    "lite_s20261013": 0,
+    "deep_wavenet_euvp": 0,
+    "uiec2net": 0,
+    "uir_polykernel": 34,
+    "syreanet": 0,
+    "semi_uir": 4,
+    "phaseformer_uieb": 22,
+    "ushape_lsui": 1,
+    "tacl": 1
+   }
+  },
+  "same_action_image_fraction": 0.47588832487309646,
+  "images": 788,
+  "groups": 22
+ },
+ "category_curve": {
+  "images": 788,
+  "groups": 22,
+  "curve": [
+   {
+    "added": [
+     "gray_world_mean"
+    ],
+    "pool_size": 1,
+    "quality": 0,
+    "task": 21,
+    "joint": 0
+   },
+   {
+    "added": [
+     "shallow_uwnet"
+    ],
+    "pool_size": 2,
+    "quality": 0,
+    "task": 22,
+    "joint": 0
+   },
+   {
+    "added": [
+     "funie_s20260913",
+     "funie_s20261013",
+     "lite_s20260913",
+     "lite_s20261013"
+    ],
+    "pool_size": 6,
+    "quality": 0,
+    "task": 22,
+    "joint": 0
+   },
+   {
+    "added": [
+     "deep_wavenet_euvp"
+    ],
+    "pool_size": 7,
+    "quality": 0,
+    "task": 22,
+    "joint": 0
+   },
+   {
+    "added": [
+     "uiec2net"
+    ],
+    "pool_size": 8,
+    "quality": 0,
+    "task": 22,
+    "joint": 0
+   },
+   {
+    "added": [
+     "uir_polykernel"
+    ],
+    "pool_size": 9,
+    "quality": 5,
+    "task": 22,
+    "joint": 3
+   },
+   {
+    "added": [
+     "syreanet"
+    ],
+    "pool_size": 10,
+    "quality": 5,
+    "task": 22,
+    "joint": 3
+   },
+   {
+    "added": [
+     "semi_uir"
+    ],
+    "pool_size": 11,
+    "quality": 7,
+    "task": 22,
+    "joint": 5
+   },
+   {
+    "added": [
+     "phaseformer_uieb"
+    ],
+    "pool_size": 12,
+    "quality": 10,
+    "task": 22,
+    "joint": 7
+   },
+   {
+    "added": [
+     "ushape_lsui"
+    ],
+    "pool_size": 13,
+    "quality": 10,
+    "task": 22,
+    "joint": 7
+   },
+   {
+    "added": [
+     "tacl"
+    ],
+    "pool_size": 14,
+    "quality": 11,
+    "task": 22,
+    "joint": 8
+   }
+  ]
+ },
+ "class_iou_delta": {
+  "gray_world_mean": [
+   0.0003526481891120968,
+   -0.0815262154969215
+  ],
+  "shallow_uwnet": [
+   -0.13964132234247462,
+   -0.12713344227682818
+  ],
+  "funie_s20260913": [
+   -0.20000136723003023,
+   -0.19226759653939404
+  ],
+  "funie_s20261013": [
+   -0.13363151782702032,
+   -0.15959678428119625
+  ],
+  "lite_s20260913": [
+   -0.11159188838242247,
+   -0.10836143794414489
+  ],
+  "lite_s20261013": [
+   -0.08605480818703354,
+   -0.08896353057462687
+  ],
+  "deep_wavenet_euvp": [
+   -0.10730254886319086,
+   -0.11891556467990716
+  ],
+  "uiec2net": [
+   -0.006068750900933047,
+   -0.06793793846159406
+  ],
+  "uir_polykernel": [
+   -0.01874472570045506,
+   -0.06227277935192289
+  ],
+  "syreanet": [
+   -0.0323760985709417,
+   -0.11019931709766456
+  ],
+  "semi_uir": [
+   -8.459645992850476e-05,
+   -0.04858249614306656
+  ],
+  "phaseformer_uieb": [
+   0.0008122911053729007,
+   -0.03966934304497333
+  ],
+  "ushape_lsui": [
+   -0.10331814662615292,
+   -0.1807628614197675
+  ],
+  "tacl": [
+   -0.0221491751080955,
+   -0.05469527094137817
+  ]
+ }
+}

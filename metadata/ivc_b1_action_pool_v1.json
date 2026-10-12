@@ -1,0 +1,197 @@
+{
+  "at_utc": "2026-10-10T12:16:41.247904+00:00",
+  "stage": "B1 action pool freeze (SUIM-E discovery and TUB)",
+  "builtin": {
+    "funie_s20260913": {
+      "weight": "outputs/lsui_e1/20260918T045144Z-df599454/payload/results/funie_e1_s20260913/final_bn_model.pt",
+      "sha256": "54a46445ba2ae248397c8cb631b623605dd0e8dfe9dc37cc5b67cd40ba0d6862"
+    },
+    "funie_s20261013": {
+      "weight": "outputs/lsui_e1/20260918T045144Z-df599454/payload/results/funie_e1_s20261013/final_bn_model.pt",
+      "sha256": "4e25f80c3f28e18addb1e8374b49f688e8e208fb301c20f9b9b8ca0a99b6d400"
+    },
+    "lite_s20260913": {
+      "weight": "outputs/ivc_lite_l1/20260927T131210Z-a105edfe/payload/results/lite_s20260913/checkpoints/epoch_200.pt",
+      "sha256": "974ac63c61f470dcfd34b40045a0d772db3fd05f4ede7da18f8b9d268326277c"
+    },
+    "lite_s20261013": {
+      "weight": "outputs/ivc_lite_l1/20260927T131210Z-a105edfe/payload/results/lite_s20261013/checkpoints/epoch_200.pt",
+      "sha256": "789bd5c6dd3f344d8271e795b1a1f5280fd7db2e28cba29e28203d8fcb7212fe"
+    }
+  },
+  "builtin_parameter_free": [
+    "identity",
+    "gray_world_mean"
+  ],
+  "third_party": {
+    "semi_uir": {
+      "repo": "Semi-UIR",
+      "weight": "Semi-UIR/pretrained/model.pth",
+      "train_data": "UIEB 800 + UWCNN synthetic NYU 800 labelled; 1600 EUVP unlabelled",
+      "category": "semi-supervised CNN",
+      "deviation": "mmcv modulated_deform_conv2d -> torchvision deform_conv2d",
+      "weight_sha256": "4ccf77a11685a972964bc12445b12b976537251a05f51b9ad5f800fd680b871b",
+      "source_archive": {
+        "repo": "Huang-ShiRui/Semi-UIR",
+        "branch": "master",
+        "archive_sha256": "0c20894a5842eca1cc0b37fe692748859e70286f0b6f2604d8c3251adaccfc14",
+        "archive_bytes": 19378328,
+        "fetched_at_utc": "2026-10-10T10:03:08.225874+00:00"
+      }
+    },
+    "phaseformer_uieb": {
+      "repo": "Phaseformer",
+      "weight": "Phaseformer/checkpoints/UIEB/best.pth",
+      "train_data": "UIEB (split unverified)",
+      "category": "light transformer",
+      "deviation": "official 512x512 inference, resized back",
+      "weight_sha256": "fbb2092e299e774e9fc35a4ddb6a24a0a4ac159e9c5b754b3f1d6dff18f9dfc8",
+      "source_archive": {
+        "repo": "Mdraqibkhan/Phaseformer",
+        "branch": "main",
+        "archive_sha256": "5e2d52c568f88dce9df8a010dd81da51425fc6b88743c1e177c1f864b20f3fa8",
+        "archive_bytes": 24931114,
+        "fetched_at_utc": "2026-10-10T10:03:20.138976+00:00"
+      }
+    },
+    "deep_wavenet_euvp": {
+      "repo": "Deep-WaveNet",
+      "weight": "Deep-WaveNet/uie_euvp/ckpts/netG_17.pt",
+      "train_data": "EUVP",
+      "category": "light CNN",
+      "deviation": null,
+      "weight_sha256": "4234f1358378275b7fab14b64fbe8232168b6533f0999d614401ac6238f16c69",
+      "source_archive": {
+        "repo": "pksvision/Deep-WaveNet-Underwater-Image-Restoration",
+        "branch": "main",
+        "archive_sha256": "e7344158b96c5c30e8549e8561a9f444d497b3f27bae5dd5a6084382e2588536",
+        "archive_bytes": 98049598,
+        "fetched_at_utc": "2026-10-10T10:04:00.061282+00:00"
+      }
+    },
+    "uir_polykernel": {
+      "repo": "UIR-PolyKernel",
+      "weight": "_weights/UIR-PolyKernel/weight.pth",
+      "train_data": "UIEB+EUVP+LSUI mix (IDs unknown)",
+      "category": "large-kernel CNN",
+      "deviation": "SyncBN -> BatchNorm2d (eval-equivalent)",
+      "weight_sha256": "e19ac049b61d522ddc2e5fe78156e897b0eac0d3e5253dc26c7dff885dfc4c2c",
+      "source_archive": {
+        "repo": "CXH-Research/UIR-PolyKernel",
+        "branch": "main",
+        "archive_sha256": "660f09e1ac2e74cbbe755465252559089c7bd4cfa9313f1470720da83332c89c",
+        "archive_bytes": 16959,
+        "fetched_at_utc": "2026-10-10T10:04:02.917789+00:00"
+      }
+    },
+    "shallow_uwnet": {
+      "repo": "Shallow-UWnet",
+      "weight": "_weights/Shallow-UWnet/model.ckpt",
+      "train_data": "EUVP ImageNet paired subset",
+      "category": "very light CNN",
+      "deviation": "authors default 256 resize not applied",
+      "weight_sha256": "16c090a847e990bfd56a6466fd36f5595cc3a4c514a5ce941caa1a1806441835",
+      "source_archive": {
+        "repo": "mkartik/Shallow-UWnet",
+        "branch": "main",
+        "archive_sha256": "975bbf1d9fedbc207a42edd7de6a009eba094b48f1f660c47aae71a9f688bea5",
+        "archive_bytes": 240591,
+        "fetched_at_utc": "2026-10-10T10:04:05.963646+00:00"
+      }
+    },
+    "syreanet": {
+      "repo": "SyreaNet",
+      "weight": "_weights/SyreaNet/pretrained.pth",
+      "train_data": "synthetic + ~5k real UIEB/EUVP",
+      "category": "physics-guided CNN",
+      "deviation": null,
+      "weight_sha256": "9e04e993b8492c019cd0ecdde7e3e5ec10473d74d2aded565e6dbe9523e397e0",
+      "source_archive": {
+        "repo": "RockWenJJ/SyreaNet",
+        "branch": "master",
+        "archive_sha256": "5adf2c17f3406ce87f0f5c1224028ca2f205659d326e0498bca00b1a479ff166",
+        "archive_bytes": 3028846,
+        "fetched_at_utc": "2026-10-10T10:04:30.101431+00:00"
+      }
+    },
+    "ushape_lsui": {
+      "repo": "U-shape",
+      "weight": "_weights/U-shape/saved_models/G/generator_795.pth",
+      "train_data": "LSUI 3879-pair author split",
+      "category": "transformer",
+      "deviation": "fixed 256x256; min-max normalised output resized back",
+      "weight_sha256": "c595c2aa49cd9623d02379b3990ad955c46d65dd3095b2b1c5612744981d8fae",
+      "source_archive": {
+        "repo": "LintaoPeng/U-shape_Transformer_for_Underwater_Image_Enhancement",
+        "branch": "main",
+        "archive_sha256": "8a06e333587b48139ebdc46d964c6401e6478d1f653adcbd36dffe68f0aee9dc",
+        "archive_bytes": 31642809,
+        "fetched_at_utc": "2026-10-10T10:04:23.397510+00:00"
+      }
+    },
+    "tacl": {
+      "repo": "TACL",
+      "weight": "_weights/TACL/weights/latest_net_G_A.pth",
+      "train_data": "unverified (unpaired real images)",
+      "category": "task-aware GAN",
+      "deviation": "eval mode, no dropout",
+      "weight_sha256": "57b2c0967fb0c54b03abef895feb1561e1f424efc6e1191a61b595c23dce94e2",
+      "source_archive": {
+        "repo": "Jzy2017/TACL",
+        "branch": "main",
+        "archive_sha256": "a5e07843a8d97e5dd83aa843971dc5b16a1d5def353d2068cca79d3189dc04e4",
+        "archive_bytes": 3631409,
+        "fetched_at_utc": "2026-10-10T10:04:35.630169+00:00"
+      }
+    },
+    "uiec2net": {
+      "repo": "UWEnhancement",
+      "weight": "_weights/UWEnhancement/UIEC2Net.pth",
+      "train_data": "UIEB 800 + NYU synthetic 1200",
+      "category": "light CNN (RGB+HSV)",
+      "deviation": null,
+      "weight_sha256": "c839f9980f3ad99bb397b945df6f748c0fb64c05d157d3ca853b2524bff05afe",
+      "source_archive": {
+        "repo": "BIGWangYuDong/UWEnhancement",
+        "branch": "master",
+        "archive_sha256": "e49398d9519cb10c0932334960b76ee9c3d9563739e7ecd03abec3a1ea51139f",
+        "archive_bytes": 851879,
+        "fetched_at_utc": "2026-10-10T10:04:43.367714+00:00"
+      }
+    }
+  },
+  "excluded": {
+    "baidu_only": [
+      "PUGAN",
+      "DTI-UIE",
+      "HCLR-Net",
+      "WF-Diff"
+    ],
+    "no_weights": [
+      "CCMSR-Net",
+      "PA-Diff",
+      "GUPDM",
+      "CECF"
+    ],
+    "tf1_only": [
+      "Ucolor",
+      "Water-Net",
+      "UWCNN"
+    ],
+    "suime_trained": [
+      "SGUIE-Net",
+      "X-CAUNET suim.pt"
+    ],
+    "mamba_cuda_build": [
+      "SS-UIE"
+    ],
+    "diffusion_deferred": [
+      "Reti-Diff",
+      "DM_underwater",
+      "DiffWater"
+    ]
+  },
+  "reference_generator_rule": "None of the 15 actions generated SUIM-E references (CE, Fusion, GCHE, HistogramPrior, HUE, IBLA, Retinex, TwoStep, UCM, ULAP, DCP, dive+).",
+  "contamination_screen_pending": "Hash/ORB overlap of SUIM-E images with UIEB and LSUI training content; per-image flags, methods not removed.",
+  "audit_by": "subagent 1dd0a22e (official weight audit, 2026-10-10)"
+}

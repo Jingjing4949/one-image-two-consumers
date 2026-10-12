@@ -1,0 +1,310 @@
+{
+ "gray_world_mean": {
+  "total": {
+   "group_macro": -0.05034021077655489,
+   "harmed_groups": 758
+  },
+  "residual": {
+   "group_macro": -0.011663176721626029,
+   "harmed_groups": 662
+  },
+  "shift": {
+   "group_macro": -0.03867703405492887,
+   "harmed_groups": 793
+  },
+  "mixed": {
+   "group_macro": -0.01628603787982434,
+   "harmed_groups": 544
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 758,
+  "still_harmed_after_matched_retraining": 418,
+  "share_still_harmed": 0.5514511873350924
+ },
+ "funie_s20260913": {
+  "total": {
+   "group_macro": -0.026820761528321694,
+   "harmed_groups": 757
+  },
+  "residual": {
+   "group_macro": -0.009820433658660643,
+   "harmed_groups": 660
+  },
+  "shift": {
+   "group_macro": -0.017000327869661047,
+   "harmed_groups": 727
+  },
+  "mixed": {
+   "group_macro": -0.006528062550760256,
+   "harmed_groups": 537
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 757,
+  "still_harmed_after_matched_retraining": 438,
+  "share_still_harmed": 0.5785997357992074
+ },
+ "funie_s20261013": {
+  "total": {
+   "group_macro": -0.028233173269387804,
+   "harmed_groups": 789
+  },
+  "residual": {
+   "group_macro": -0.009284242109451495,
+   "harmed_groups": 646
+  },
+  "shift": {
+   "group_macro": -0.01894893115993631,
+   "harmed_groups": 744
+  },
+  "mixed": {
+   "group_macro": -0.008416483896454168,
+   "harmed_groups": 543
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 789,
+  "still_harmed_after_matched_retraining": 438,
+  "share_still_harmed": 0.5551330798479087
+ },
+ "lite_s20260913": {
+  "total": {
+   "group_macro": -0.01501482459007656,
+   "harmed_groups": 677
+  },
+  "residual": {
+   "group_macro": -0.006129769184112053,
+   "harmed_groups": 625
+  },
+  "shift": {
+   "group_macro": -0.008885055405964504,
+   "harmed_groups": 673
+  },
+  "mixed": {
+   "group_macro": -0.0015632106400149813,
+   "harmed_groups": 447
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 677,
+  "still_harmed_after_matched_retraining": 374,
+  "share_still_harmed": 0.552437223042836
+ },
+ "lite_s20261013": {
+  "total": {
+   "group_macro": -0.014608487324738038,
+   "harmed_groups": 677
+  },
+  "residual": {
+   "group_macro": -0.00787009584821042,
+   "harmed_groups": 635
+  },
+  "shift": {
+   "group_macro": -0.006738391476527616,
+   "harmed_groups": 639
+  },
+  "mixed": {
+   "group_macro": -0.004013319248800578,
+   "harmed_groups": 458
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 677,
+  "still_harmed_after_matched_retraining": 387,
+  "share_still_harmed": 0.5716395864106352
+ },
+ "semi_uir": {
+  "total": {
+   "group_macro": -0.026374921470581278,
+   "harmed_groups": 748
+  },
+  "residual": {
+   "group_macro": -0.008981227643058842,
+   "harmed_groups": 649
+  },
+  "shift": {
+   "group_macro": -0.01739369382752244,
+   "harmed_groups": 728
+  },
+  "mixed": {
+   "group_macro": -0.005251427890320835,
+   "harmed_groups": 517
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 748,
+  "still_harmed_after_matched_retraining": 421,
+  "share_still_harmed": 0.5628342245989305
+ },
+ "phaseformer_uieb": {
+  "total": {
+   "group_macro": -0.024153153280417214,
+   "harmed_groups": 707
+  },
+  "residual": {
+   "group_macro": -0.0058446922655334445,
+   "harmed_groups": 636
+  },
+  "shift": {
+   "group_macro": -0.018308461014883776,
+   "harmed_groups": 716
+  },
+  "mixed": {
+   "group_macro": -0.003468587521500909,
+   "harmed_groups": 482
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 707,
+  "still_harmed_after_matched_retraining": 405,
+  "share_still_harmed": 0.5728429985855729
+ },
+ "deep_wavenet_euvp": {
+  "total": {
+   "group_macro": -0.012907771273679805,
+   "harmed_groups": 628
+  },
+  "residual": {
+   "group_macro": -0.0009093058070140716,
+   "harmed_groups": 594
+  },
+  "shift": {
+   "group_macro": -0.011998465466665734,
+   "harmed_groups": 669
+  },
+  "mixed": {
+   "group_macro": -0.0017684207661000369,
+   "harmed_groups": 428
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 628,
+  "still_harmed_after_matched_retraining": 349,
+  "share_still_harmed": 0.5557324840764332
+ },
+ "uir_polykernel": {
+  "total": {
+   "group_macro": -0.015090321004903475,
+   "harmed_groups": 658
+  },
+  "residual": {
+   "group_macro": -0.0018847088750830973,
+   "harmed_groups": 573
+  },
+  "shift": {
+   "group_macro": -0.01320561212982038,
+   "harmed_groups": 681
+  },
+  "mixed": {
+   "group_macro": -0.0016414496361294394,
+   "harmed_groups": 427
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 658,
+  "still_harmed_after_matched_retraining": 338,
+  "share_still_harmed": 0.513677811550152
+ },
+ "shallow_uwnet": {
+  "total": {
+   "group_macro": -0.01672936400622865,
+   "harmed_groups": 735
+  },
+  "residual": {
+   "group_macro": -0.005557350310569907,
+   "harmed_groups": 629
+  },
+  "shift": {
+   "group_macro": -0.011172013695658746,
+   "harmed_groups": 736
+  },
+  "mixed": {
+   "group_macro": -0.0032067379497467724,
+   "harmed_groups": 507
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 735,
+  "still_harmed_after_matched_retraining": 412,
+  "share_still_harmed": 0.5605442176870749
+ },
+ "syreanet": {
+  "total": {
+   "group_macro": -0.11192796188159868,
+   "harmed_groups": 1045
+  },
+  "residual": {
+   "group_macro": -0.011857603349310356,
+   "harmed_groups": 704
+  },
+  "shift": {
+   "group_macro": -0.10007035853228832,
+   "harmed_groups": 1018
+  },
+  "mixed": {
+   "group_macro": -0.03213205457424932,
+   "harmed_groups": 813
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 1045,
+  "still_harmed_after_matched_retraining": 576,
+  "share_still_harmed": 0.5511961722488038
+ },
+ "ushape_lsui": {
+  "total": {
+   "group_macro": -0.05565695289194769,
+   "harmed_groups": 953
+  },
+  "residual": {
+   "group_macro": -0.020333210727526557,
+   "harmed_groups": 786
+  },
+  "shift": {
+   "group_macro": -0.03532374216442114,
+   "harmed_groups": 828
+  },
+  "mixed": {
+   "group_macro": -0.031062237151610838,
+   "harmed_groups": 831
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 953,
+  "still_harmed_after_matched_retraining": 625,
+  "share_still_harmed": 0.6558237145855194
+ },
+ "tacl": {
+  "total": {
+   "group_macro": -0.05188106708609185,
+   "harmed_groups": 804
+  },
+  "residual": {
+   "group_macro": -0.012697001181953995,
+   "harmed_groups": 681
+  },
+  "shift": {
+   "group_macro": -0.039184065904137845,
+   "harmed_groups": 792
+  },
+  "mixed": {
+   "group_macro": -0.012033224458853919,
+   "harmed_groups": 598
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 804,
+  "still_harmed_after_matched_retraining": 469,
+  "share_still_harmed": 0.5833333333333334
+ },
+ "uiec2net": {
+  "total": {
+   "group_macro": -0.030069761703177083,
+   "harmed_groups": 731
+  },
+  "residual": {
+   "group_macro": -0.004994267855278903,
+   "harmed_groups": 627
+  },
+  "shift": {
+   "group_macro": -0.025075493847898183,
+   "harmed_groups": 748
+  },
+  "mixed": {
+   "group_macro": -0.005002677896219821,
+   "harmed_groups": 487
+  },
+  "groups": 1465,
+  "harmed_under_raw_model": 731,
+  "still_harmed_after_matched_retraining": 397,
+  "share_still_harmed": 0.5430916552667578
+ }
+}
